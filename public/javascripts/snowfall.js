@@ -37,7 +37,7 @@ function rnd(){return Math.random();}
 function xRnd(){return (rnd()/10);}
 function yRnd(){return (2 + 2*( .5 - rnd() ));}
 var letitsnow = true;
-var flakes = Array("http://images.alldorm.com/images/P/01/holiday/snow1.gif","http://images.alldorm.com/images/P/01/holiday/snow2.gif","http://images.alldorm.com/images/P/01/holiday/snow3.gif");
+var flakes = Array("/images/snow1.gif","/images/snow2.gif","/images/snow3.gif");
 var numflakes = 10;
 var T = 50;
 var dx, xPos, yPos, am, vx, vy, obj, i;
