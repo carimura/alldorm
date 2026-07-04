@@ -1,0 +1,307 @@
+
+
+<!-- BEGIN display.tpl -->
+
+<HTML>
+<HEAD>
+<TITLE>Gadgets Department</TITLE>
+<script language="JavaScript" src="/storefront/lib/lib.js">
+</script>
+
+<link rel="stylesheet" href="/storefront/lib/styles.css" type="text/css">
+</HEAD>
+
+<BODY BGCOLOR=#74c015 leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" link="#0000CC" vlink="#0000CC" alink="#0000CC">
+
+<!-- BEGIN header.inc for www -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td background="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/titles/titlebg.gif" align="left" nowrap width="500"><a href="/"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/alldormlogosmall.gif" width="165" height="57" border="0"></a><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/titles/blank.gif" width="335" height="57"></td>
+		<td background="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/titles/titlebg.gif" valign="bottom" halign="left" nowrap class="content-small">
+			<a href="/storefront/mydorm/"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/buttons/shoppingcart.gif" width="86" height="14" border="0"></a>&nbsp;&nbsp;<a href="/storefront/mydorm/index/wish_1/"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/buttons/wishlist.gif" width="86" height="14" border="0"></a><br><br>
+			<a href="/storefront/account/">My Account</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+			<a href="/storefront/checkout/">Checkout</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+			<a href="/storefront/paths/help/">Help Section</a>&nbsp;&nbsp;&nbsp;</td>
+		<td background="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/titles/titlebg.gif" width="100%" nowrap>&nbsp;</td>
+	</tr>
+</table>
+
+<table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#74c015">
+	<tr>
+		<td valign="top" width="42"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/main_nav/search.gif" width=42 height=25></td>
+		<td valign="top" align="center" nowrap background="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/main_nav/orangegreenbg.gif">
+			<form method="POST" action="https://web.archive.org/web/20020407142707/http://www.alldorm.com/storefront/search.cgi">
+			<input type="text" class=content-medium name="search_for" value="" size="10"><input type="image" src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/main_nav/go.gif" width="25" height="25" border="0" align="top">
+			</form>
+		</td>
+		<td valign="top" width="48"><a href="/"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/main_nav/home.gif" width=48 height=25 border="0"></a></td>
+		<td valign="top" width="86"><a href="/storefront/sd/browse/12/"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/main_nav/essentials.gif" width=86 height=25 border="0"></a></td>
+		<td valign="top" width="100"><a href="/storefront/sd/browse/bargain/"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/main_nav/bargain.gif" width=100 height=25 border="0"></a></td>
+		<td valign="top" width="109"><a href="/storefront/sd/"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/main_nav/storedirectory.gif" width=109 height=25 border="0"></a></td>
+		<td valign="top" width="24"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/main_nav/mainnavrightend.gif" width=24 height=25></td>
+		<td background="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/main_nav/mainnavbg.gif" valign="top">
+			<form name="JumpForm" method="get">
+			<select name="quickBrowse" onChange="jumpMenu('parent',this,0)" class=content-medium>
+			<option>Jump to...</option>
+			<option>----------------</option>
+			
+			<option value="http://www.alldorm.com/storefront/sd/browse/?subdir=446">CDs &amp; DVDs</option>
+			<option value="http://www.alldorm.com/storefront/sd/browse/exclusive/">Exclusive *new*</option>
+			<option value="http://www.alldorm.com/storefront/sd/browse/?subdir=8">Posters</option>
+			<option value="http://www.alldorm.com/storefront/sd/browse/?subdir=3">Lighting</option>
+										
+			<option value="http://www.alldorm.com/storefront/sd/browse/?subdir=2">Furniture</option>
+			<option value="http://www.alldorm.com/storefront/sd/browse/?subdir=4">Bed &amp; Bath</option>
+			<option value="http://www.alldorm.com/storefront/sd/browse/?subdir=6">Space Savers</option>
+			<option value="http://www.alldorm.com/storefront/sd/browse/?subdir=11">Room Decor</option>
+			<option value="http://www.alldorm.com/storefront/sd/browse/?subdir=5">Kitchen</option>
+			<option value="http://www.alldorm.com/storefront/sd/browse/?subdir=115">Gadgets</option>
+			<option value="http://www.alldorm.com/storefront/sd/browse/?subdir=12">Essentials</option>
+			<option value="http://www.alldorm.com/storefront/sd/browse/bargain/">Bargain Bin</option>
+			<option value="http://www.alldorm.com/storefront/sd/browse/care/">Care Packages</option>
+			</select>
+			</form>
+		</td>
+		<td background="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/main_nav/mainnavbg.gif" width="100%" valign="top">
+			&nbsp;<a href="https://web.archive.org/web/20020407142707/http://server.iad.liveperson.net/hc/27005197/?cmd=file&amp;file=visitorWantsToChat&amp;site=27005197&amp;byhref=1" target='chat27005197' onClick="window.open('http://server.iad.liveperson.net/hc/27005197/?cmd=file&file=visitorWantsToChat&site=27005197&referrer='+document.location,'chat27005197','width=472,height=320');return false;"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/buttons/livehelp_s.gif" width="98" height="41" border="0"></a>
+		</td>
+	</tr>
+</table>
+<!-- END header.inc for www -->
+
+<table border="0" cellspacing="0" cellpadding="0" bgcolor="white">
+		<tr height="1">
+			<td width="20" rowspan="6" bgcolor="#74c015"></td>
+			<td height="1" colspan="2" bgcolor="#74c015"></td>
+			<td height="1" colspan="4" bgcolor="#74c015"></td>
+		</tr>
+		<tr height="22">
+			<td width="8"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/frame/corner_topleft_ora1.gif" width="8" height="22"></td>
+			<td width="17" align="left"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/frame/corner_topleft_ora2.gif" width="17" height="22"></td>
+			<td background="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/frame/slice_top_ora.gif" height="22" colspan="2" class=content-medium>
+				<a href="/">Alldorm.com</a> / <a href="/storefront/sd/">Store Directory</a>
+ / Gadgets
+			</td>
+			<td width="17" align="right"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/frame/corner_topright_ora2.gif" width="17" height="22"></td>
+			<td width="8"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/frame/corner_topright_ora1.gif" width="8" height="22"></td>
+		</tr>
+		<tr height="100%">
+			<td width="8" background="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/frame/slice_left.gif" valign="bottom" align="left" height="100%"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/frame/fade_leftside.gif" width="7" height="47"></td>
+			<td width="17" height="100%">&nbsp;</td>
+			<td height="100%" width="170" valign="top">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td width=140 valign="top" class=content-medium>
+							<br>
+							<span class=headers-orange>In Gadgets</span><br>
+							<a href="/storefront/sd/">Home</a><br><br>
+							<A HREF="/storefront/sd/browse/115/126/">Automotive</a><br>
+<A HREF="/storefront/sd/browse/115/121/">Camera</a><br>
+<A HREF="/storefront/sd/browse/115/81/">Clocks</a><br>
+<A HREF="/storefront/sd/browse/115/122/">Cool Gadgets</a><br>
+<A HREF="/storefront/sd/browse/115/116/">Electronics</a><br>
+<A HREF="/storefront/sd/browse/115/119/">Gadgets Under $30</a><br>
+<A HREF="/storefront/sd/browse/115/124/">Health/Fitness</a><br>
+<A HREF="/storefront/sd/browse/115/118/">Home Products</a><br>
+<A HREF="/storefront/sd/browse/115/123/">Phone</a><br>
+<A HREF="/storefront/sd/browse/115/125/">Security/Safety</a><br>
+<A HREF="/storefront/sd/browse/115/117/">Tools/Outdoor</a><br>
+<A HREF="/storefront/sd/browse/115/76/">Toys</a><br>
+<br>
+							<a href="/storefront/sd/">Other Stores</a>
+						</td>
+						<td width="15" valign="top"><br><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/verticalnav/bar.jpg" width=14 height=400></td>
+					</tr>
+				</table>
+			</td>
+			<td width="525" height="100%" valign="top">
+				<br>
+				
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+	<tr>
+	<!-- center content area -->
+		<td width="400" height="100%" align="center" valign="top" colspan="2">
+			<table width="400" border="0" cellspacing="0" cellpadding="5">
+				<tr>
+				  <td colspan="2" width="400" valign="top" class=content-medium>
+				  		<a href="/storefront/sd/browse/115/117/">Cool gadgets for the outdoors</a><br>
+       					<a href="/storefront/sd/browse/115/117/"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/product_pictures/s.698.jpg" border='0' align="left"></a><b class="headers-orange">Always be prepared</b><br>
+				        Be ready for anything whether you're out camping or on the road. With our broad selection of lights, tools and other gadgets we can make sure that you are never left out in the cold.(<a href="/storefront/sd/browse/115/117/">See more</a>)<br clear="all">
+						<br><br><br>
+				  </td>
+				</tr>
+				<tr>
+					<td width="200" valign="top" align="left" class=content-medium>
+						<a href="/storefront/detail/560/"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/product_pictures/s.560.jpg" border="0"></a><br><br>
+						<a href="/storefront/detail/560/">Multi-Point Pen</a><br>
+						<b>Our Price: <font color="red">$29.95</font></b><br>
+						<a href="/storefront/sd/browse/115/119/">See more...</a>
+						
+					</td>
+					<td width="200" valign="top" align="left" class=content-medium>
+						<a href="/storefront/detail/589/"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/product_pictures/s.589.jpg" border="0"></a><br><br>
+						<a href="/storefront/detail/589/">Planet Topix Universal Remote</a><br>
+						<b>Our Price: <font color="red">$24.95</font></b><br>
+						<a href="/storefront/sd/browse/115/116/">See more...</a>
+					</td>
+				</tr>
+				<tr>
+				  <td colspan="2" width="400" valign="top" class=content-medium>
+				  	<br><br><br>
+					<b>Top Sellers in Gadgets:</b><br>
+					&nbsp;&nbsp;1. <a href="/storefront/detail/574/">Door Gym</a> <br>
+					&nbsp;&nbsp;2. <a href="/storefront/detail/700/">Big Mouth Billy Bass</a> <br>
+					&nbsp;&nbsp;3. <a href="/storefront/detail/673/">Shatter Free SOS Hammer</a> <br>
+					&nbsp;&nbsp;4. <a href="/storefront/detail/684/">Commando Torchlight</a> <br>
+					&nbsp;&nbsp;5. <a href="/storefront/detail/639/">Oxygenic Shower Head</a> <br>
+					
+				  </td>
+				</tr>
+
+			</table>
+		</td> 
+		
+		<!-- Right content area -->
+		<td height="100%" width="125" align="left" valign="top">
+		<table border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td bgcolor="white" align="center" valign="bottom" width=125 height=24>
+				<img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/frame/header_featured.gif" border="0" width="100%" width=125 height=24><br>
+			</td>
+		</tr>
+		<tr>
+		<td valign="top">
+		<table border="1" cellspacing="0" cellpadding="10" bordercolor="#c7cd54">
+					<tr>
+						<td bordercolor="#c7cd54" border="2" valign="top">
+		<a href="/storefront/detail/575/"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/product_pictures/s.575.jpg" border="0"></a>
+		<br>
+	    <span class="content-medium"><br><a href="/storefront/detail/575/"><b>LED Light w/ Keychain</b></a></span><br>
+
+      <span class="content-small">Increase your safety and mental peace with this revolutionary gizmo. Quickly and easily locate the
+
+	  keyhole to your car or apartment, and get out of the elements as fast as possible.</span><br>
+	  </td></tr></table>
+	</td></tr></table>
+    	
+		<br><br>
+		<table border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td bgcolor="white" align="center" valign="bottom" width=125 height=24>
+				<img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/frame/header_featured.gif" border="0" width="100%" width=125 height=24><br>
+			</td>
+		</tr>
+		<tr>
+		<td valign="top">
+		<table border="1" cellspacing="0" cellpadding="10" bordercolor="#c7cd54">
+					<tr>
+						<td bordercolor="#c7cd54" border="2" valign="top">
+		<a href="/storefront/detail/713/"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/product_pictures/s.713.jpg" border="0"></a>
+		<br>
+	    <span class="content-medium"><br><a href="/storefront/detail/713/"><b>Ab Dominator
+
+  		</b></a></span><br>
+
+      <span class="content-small">If you want to look like a bodybuilder you should probably get a personal trainer. For those
+
+	  a little less obsessive about their workout, we have the Ab Dominator. Develop powerful abdominal muscles and tone your arms, shoulders,
+
+	  thighs and back all with this wonderful gadget.
+	  </span><br>
+	  </td></tr></table>
+	  </td></tr></table>
+		</td>
+			</tr>
+<!--	
+			<tr height="35">
+	
+		<td height="35" colspan="4"><br>
+
+
+
+	    </td>
+
+			</tr>
+	-->
+			
+
+		</table><br>
+				<a href="/storefront/sd/"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/icons/play_left.gif" width="17" height="17" border="0" align="left"><span class="content-medium">Back<!-- to Gadgets department--></span></a>
+			</td>
+			<td width="17" height="100%">&nbsp;</td>
+			<td width="8" height="100%">&nbsp;</td>
+		</tr>
+		<tr height="22">
+			<td width="8" height="22"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/frame/corner_bottomleft1.gif" width="8" height="22"></td>
+			<td width="17" height="22"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/frame/corner_bottomleft2.gif" width="17" height="22"></td>
+			<td height="22" colspan="2">&nbsp;</td>
+			<td width="17" height="22" align="right"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/frame/corner_bottomright1.gif" width="17" height="22"></td>
+			<td width="8" height="22"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/frame/corner_bottomright2.gif" width="8" height="22"></td>
+		</tr>
+			<tr height="50">
+				<td height="50" colspan="6" bgcolor="#74c015"></td>
+			</tr>
+	</table>
+	<!-- BEGIN footer_table.inc -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="content-medium">
+	<tr align="center"> 
+		<td height="70" bgcolor="#666699">
+			<br><br>
+			<table bgcolor="#99CCFF" width="600" cellpadding="1" cellspacing="0" border="0">
+			<tr>
+				<td width="49%">
+					<table bgcolor="#666699" width="100%" cellpadding="3" cellspacing="0" border="0">
+						<tr>
+							<td class="content-medium">
+								<font color="#FFCC66">Need help?</font><br>
+								&nbsp;&nbsp;&#149;&nbsp;<font color="#CCCCCC">I <a href="/storefront/forgot/"><font color="#99CCFF">forgot</font></a> my password!</font><br>
+								&nbsp;&nbsp;&#149;&nbsp;<font color="#CCCCCC">Check out our <a href="/storefront/paths/help/"><font color="#99CCFF">help section.</font></a></font><br>
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td width="2%" bgcolor="#666699">
+				</td>
+				<td width="49%">
+					<table bgcolor="#666699" width="100%" cellpadding="3" cellspacing="0" border="0">
+						<tr>
+							<td class="content-medium">
+								<font color="#FFCC66">Shipping & Returns</font><br>
+								&nbsp;&nbsp;&#149;&nbsp;<a href="/storefront/paths/help/#4"><font color="#99CCFF">Where is my stuff?</font></a><br>
+								&nbsp;&nbsp;&#149;&nbsp;<font color="#CCCCCC">I want to <a href="/storefront/paths/help/returns/"><font color="#99CCFF">return</font></a> something.</font><br>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+			<p><span class="content-medium">
+			<br>
+        <a href="/"><font color="#99CCFF">Home</font></a> | 
+		<a href="/storefront/sd/browse/12/"><font color="#99CCFF">Essentials</font></a> | 
+		<a href="/storefront/sd/browse/bargain/"><font color="#99CCFF">Bargain Bin</font></a> | 
+		<a href="/storefront/sd/"><font color="#99CCFF">Store Directory</font></a> | 
+		<a href="/storefront/paths/help/aboutus/"><font color="#99CCFF">About Us</font></a> | 
+		<a href="/storefront/paths/help/feedback/"><font color="#99CCFF">Contact Us </font></a> | 
+		<a href="/storefront/paths/help/privacy/"><font color="#99CCFF">Privacy Agreement</font></a><br>
+		<a href="/storefront/gift/"><font color="#99CCFF">Gift Certificates</font></a> |
+		<a href="mailto:mike@alldorm.com"><font color="#99CCFF">Advertise with Us</font></a> | 
+		<a href="/storefront/paths/partner/"><font color="#99CCFF">Have a website?  Earn Money!</font></a>
+		
+		</span>	
+		</p>
+<a href="https://web.archive.org/web/20020407142707/https://digitalid.verisign.com/as2/a911094eaedb599b8cfa789fab145a9a" target="new"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/Secure-White98x102.gif" width="72" height="75" border="0"></a><br>
+			Copyright &copy; Alldorm, Inc. 2000-2002 All Rights Reserved
+			<script language='javascript' src="https://web.archive.org/web/20020407142707im_/http://server.iad.liveperson.net/hc/27005197/x.js?cmd=file&amp;file=chatScript3&amp;site=27005197&amp;category=en;liveperson;3"></script>
+			<br><br>	
+			<div align="left">Do you feel lucky? <br>Click one for a random product:
+<a href="/products/collegefurniture/montegofullfuton.htm"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/icons/lucky_circle.gif" width="12" height="12" border=0 alt="College Furniture"></a>&nbsp;<a href="/products/collegeposters/simpsonscast.htm"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/icons/lucky_circle.gif" width="12" height="12" border=0 alt="College Posters"></a>&nbsp;<a href="/products/dormfurniture/multitaskchair.htm"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/icons/lucky_circle.gif" width="12" height="12" border=0 alt="Dorm Furniture"></a>&nbsp;<a href="/products/dormproducts/dometouchlamp.htm"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/icons/lucky_circle.gif" width="12" height="12" border=0 alt="Dorm Products"></a>&nbsp;<a href="/products/dormroomfurniture/adventureloungechair.htm"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/icons/lucky_circle.gif" width="12" height="12" border=0 alt="Dorm Room Furniture"></a>&nbsp;<a href="/products/graduation/freshmanmanual.htm"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/icons/lucky_circle.gif" width="12" height="12" border=0 alt="Graduation Gifts"></a>&nbsp;<a href="/products/inflatablefurniture/originalbubblechair.htm"><img src="https://web.archive.org/web/20020407142707im_/http://www.alldorm.com:80/media/icons/lucky_circle.gif" width="12" height="12" border=0 alt="Inflatable Furniture"></a></div>
+			<div align="right"><a href="#top"><font color="#99CCFF">Top of Page</font></a></div><br>
+		</td>
+	</tr>
+</table>
+<!-- END footer_table.inc -->
+	</body>
+</HTML>
+
+<!-- END display.tpl -->
